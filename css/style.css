@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F1FAEE;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #364659;
+}
+
+header, #github, article {
+    text-align: center;
+}
+
+footer a, footer p, footer a:visited {
+    color: #F1A7B5;
+}
+
+article, footer{
+    /* border: solid red 1px; */
+    padding: 15px;
+}
+
+header {
+    padding: 30px 0px 30px 0px;
+    line-height: 40px;
+}
+
+a {
+    color: #364659;
+}
+
+a:hover {
+    color: #5A0001;
+}
+
+a:visited {
+    color: #364659;
+}
+
+/* main {
+
+} */
+
+footer {
+    margin: 0;
+    background: #5A0001;
+    padding: 40px;
+    line-height: 40px;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+header h4 {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: normal;
+    padding-left: 0px;
+}
+
+.noUnderline {
+    text-decoration: none;
+}
+
+.countryFlagContainer {
+    background-image: url(usa-background.jpg);
+    background-size: cover;
+    padding: 40px;
+}
+
+.textArea {
+    height: 80px;
+}
+
+.hobbiesClass {
+    padding-bottom: 25px;
+}
+
+.forms ul{
+    line-height: 45px;
+}
+
+#hobbies ul {
+    line-height: 25px;
+}
+
+#github {
+    background: #4A6C6F;
+    color: #F1FAEE;
+    padding: 30px;
+}
+
+#countryFlag {
+    padding: 50px 70px 50px 70px;
+    color: #F1FAEE;
+}
+
+#hobbies {
+    padding: 50px;
+    background: #4A6C6F;
+    color: white;
+    line-height: 30px;
+}
+
+#contactForm {
+    padding: 70px;
+    line-height: 40px;
+}
+
+
